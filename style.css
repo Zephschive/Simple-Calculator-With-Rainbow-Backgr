@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    animation: backgroundAnimation 20s linear infinite;
+    
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background: linear-gradient(90deg, #ff5733, #33ff57);
+    }
+    25% {
+        background: linear-gradient(90deg, #33ff57, #5733ff);
+    }
+    50% {
+        background: linear-gradient(90deg, #5733ff, #ff5733);
+    }
+    75% {
+        background: linear-gradient(90deg, #ff5733, #33ff57);
+    }
+    100% {
+        background: linear-gradient(90deg, #33ff57, #5733ff);
+    }
+}
+
+table.tbl 
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.tbl tr
+{
+    margin-top: 15%;
+}
+
+input[type="text"]
+{
+    padding: 5px 4px 5px 6px;
+}
+input[type="button"]
+{
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 2em;
+    border: 3px solid;
+    font-size: 2em;
+    width: 100%; 
+}
+#clear
+{
+background: #ff9fa8;
+border: 1px solid #ff9fa8;
+}
